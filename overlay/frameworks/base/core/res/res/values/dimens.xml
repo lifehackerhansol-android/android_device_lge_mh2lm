@@ -19,5 +19,7 @@
 
 <resources>
     <!-- Height of the status bar -->
-    <dimen name="status_bar_height">28.95dip</dimen>
+    <dimen name="status_bar_height">28.949982dip</dimen>
+    
+    <dimen name="config_screenBrightnessDimFloat">0.1960784</dimen>
 </resources>
