@@ -1,3 +1,4 @@
 #SPEAKER
 allow hal_audio_default sysfs:dir { read };
 allow hal_audio_default persistlg_file:dir { search };
+allow hal_audio_default persistlg_file:file { read };
