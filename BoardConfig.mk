@@ -24,10 +24,9 @@ BOARD_KERNEL_CMDLINE += androidboot.hardware=mh2lm
 
 # Recovery
 TARGET_RECOVERY_WIPE := $(DEVICE_PATH)/recovery/recovery.wipe
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mh2lm
 
 # Security Patch Level
-VENDOR_SECURITY_PATCH := 2020-09-01
+VENDOR_SECURITY_PATCH := 2021-09-09
 
 # inherit from the proprietary version
 -include vendor/lge/mh2lm/BoardConfigVendor.mk
