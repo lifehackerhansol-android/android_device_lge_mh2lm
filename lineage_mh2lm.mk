@@ -42,6 +42,6 @@ TARGET_VENDOR_DEVICE_NAME := mh2lm
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="mh2lm_lao_com" \
-    PRIVATE_BUILD_DESC="mh2lm_lao_com-user 10 QKQ1.191021.002 202480518b6a5 release-keys"
+    PRIVATE_BUILD_DESC="mh2lm_lao_com-user 11 RKQ1.210420.001 2122112261c44 release-keys"
 
-BUILD_FINGERPRINT := "lge/mh2lm_lao_com/mh2lm:10/QKQ1.191021.002/202480518b6a5:user/release-keys"
+BUILD_FINGERPRINT := "lge/mh2lm_lao_com/mh2lm:11/RKQ1.210420.001/2122112261c44:user/release-keys"
