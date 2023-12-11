@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-COMMON_mh2lm_PATH := device/lge/mh2lm-common
+DEVICE_PATH := device/lge/mh2lm
 
 # inherit from common v50
 -include device/lge/sm8150-common/BoardConfigCommon.mk
@@ -23,6 +23,7 @@ COMMON_mh2lm_PATH := device/lge/mh2lm-common
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(COMMON_mh2lm_PATH)/bluetooth
 
 # Kernel
+BOARD_KERNEL_CMDLINE += androidboot.hardware=mh2lm
 TARGET_KERNEL_CONFIG := vendor/lineage_mh2lm_defconfig
 
 # Partitions
@@ -31,6 +32,10 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 107715436544
 
 # Recovery
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 90
+TARGET_RECOVERY_WIPE := $(DEVICE_PATH)/recovery/recovery.wipe
+
+# Security Patch Level
+VENDOR_SECURITY_PATCH := 2021-09-09
 
 # SELinux
 BOARD_SEPOLICY_DIRS += $(COMMON_mh2lm_PATH)/sepolicy/vendor

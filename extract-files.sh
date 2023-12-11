@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=mh2lm-common
+DEVICE=mh2lm
 VENDOR=lge
 
 # Load extract_utils and do some sanity checks
